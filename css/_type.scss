@@ -1,0 +1,43 @@
+.heading-1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: -0.02em;
+}
+
+.heading-2 {
+  color: var(--dark-blue);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  @media (max-width: 768px) {
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+}
+
+.sub-title {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-title__text {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--blue);
+  background-image: url("/img/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 0 center;
+  padding-right: 64px;
+  background-size: 48px 16px;
+}

@@ -1,0 +1,100 @@
+.blog {
+  background-color: var(--greyish);
+  .container {
+    padding: 100px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-title {
+    justify-content: left;
+    align-self: flex-start;
+    p {
+      margin: 0;
+    }
+  }
+  .heading-2 {
+    align-self: flex-start;
+    margin-block: 22px 6px;
+  }
+  .note {
+    align-self: flex-start;
+    font-family: "Inter";
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .blog-cards {
+    gap: 40px 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .blog-card {
+      background-color: #fff;
+      max-width: 568px;
+      max-height: 226px;
+      display: flex;
+      @media (max-width: 768px) {
+        width: 640px;
+        max-width: none;
+      }
+    }
+    .img-con {
+      overflow: hidden;
+      max-width: 284px;
+      max-height: 226px;
+    }
+    .blog-description {
+      padding: 20px;
+      max-width: 284px;
+      font-family: "Inter";
+      @media (max-width: 768px) {
+        max-width: 320px;
+      }
+      .title__text {
+        font-weight: 700;
+        font-size: 20px;
+        margin: 0;
+        font-family: "Manrope";
+      }
+      .date__text {
+        color: var(--blue);
+        padding-left: 22px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-block: 16px;
+        line-height: 18px;
+        background-image: url("/img/calendar.svg");
+        background-repeat: no-repeat;
+        background-size: 12px;
+        background-position: left center;
+      }
+      .description__text {
+        font-size: 14px;
+        margin-top: 16px;
+        margin-bottom: 18px;
+        line-height: 18px;
+      }
+      .read-more__text {
+        color: var(--blue);
+        font-weight: 700;
+        font-size: 14px;
+        margin-block: 0;
+        background-image: url("/img/blue-arrow-up-right.svg");
+        background-repeat: no-repeat;
+        background-size: 12px;
+        background-position: right center;
+        display: inline-block;
+        padding-right: 21px;
+      }
+    }
+  }
+  .primary-btn {
+    padding: 18.5px 72px 18.5px 40px;
+    background-image: url("/img/arrow-up-right.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 40px center;
+    margin-top: 48px;
+  }
+}

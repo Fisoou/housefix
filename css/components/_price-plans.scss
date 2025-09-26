@@ -1,0 +1,87 @@
+.price-plans {
+  background-color: var(--greyish);
+  .container {
+    padding-block: 100px;
+    @media (max-width: 768px) {
+      padding-block: 80px;
+    }
+  }
+  .sub-title__text {
+    margin: 0;
+  }
+  .headline {
+    padding-block: 25px;
+    .heading-2 {
+      text-align: center;
+      font-size: 48px;
+      margin: 0;
+      @media (max-width: 768px) {
+        font-size: 40px;
+      }
+    }
+  }
+  .plan-con {
+    display: flex;
+    gap: 20px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 40px;
+    }
+    .content {
+      padding: 40px 20px 60px 20px;
+      @media (max-width: 768px) {
+        padding-top: 38px;
+      }
+    }
+    .plan {
+      background-color: #fff;
+      width: 370px;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    .plan-2 {
+      border-top: 6px solid var(--blue);
+      border-bottom: 6px solid var(--blue);
+      border-radius: 4px;
+    }
+    .btn {
+      padding: 16px 25px;
+      color: var(--darker-blue);
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 24px;
+    }
+    .primary-btn {
+      color: #fff;
+    }
+    .list {
+      background-size: 16px;
+      font-family: "Inter";
+      padding-left: 28px;
+      font-size: 14px;
+      margin-bottom: 26px;
+    }
+    .plan-name {
+      font-weight: 700;
+      font-size: 24px;
+      margin: 0;
+    }
+    .price {
+      font-weight: 700;
+      display: flex;
+      align-items: baseline;
+      margin-block: 45px;
+      .number {
+        font-size: 48px;
+        color: var(--blue);
+        margin: 0;
+      }
+      .period {
+        font-size: 18px;
+        color: var(--dark-blue);
+        margin: 0;
+      }
+    }
+  }
+}
