@@ -5,6 +5,9 @@
   position: fixed;
   z-index: 3;
   font-family: "Inter";
+  @media (max-width: 425px) {
+    display: none;
+  }
   .container {
     display: flex;
     flex-direction: row;
@@ -52,13 +55,18 @@
   width: 100%;
   background-color: #fff;
   z-index: 3;
-
+  @media (max-width: 425px) {
+    top: 0;
+  }
   .logo {
     margin-block: 19px;
     width: 147px;
     height: 42px;
     @media (max-width: 768px) {
       margin-block: 16px;
+    }
+    @media (max-width: 320px) {
+      margin-block: 12px;
     }
   }
   .container {

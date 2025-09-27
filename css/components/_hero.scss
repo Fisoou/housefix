@@ -5,11 +5,14 @@
   @media (max-width: 768px) {
     padding-top: 110px;
   }
+  @media (max-width: 425px) {
+    padding-top: 60px;
+  }
 
   .container {
     position: relative;
-    @media (max-width: 768px) {
-      padding-inline: 32px;
+    @media (max-width: 320px) {
+      max-height: 877px;
     }
   }
   .bg-img {
@@ -32,6 +35,9 @@
       transform: translateX(-50%);
       max-width: 66vw;
     }
+    @media (max-width: 425px) {
+      max-width: 88vw;
+    }
   }
   .content {
     position: relative;
@@ -40,7 +46,6 @@
     max-width: 636px;
     padding-block: 202.5px;
     margin-right: 350px;
-
     @media (max-width: 768px) {
       padding-bottom: 730px;
       padding-top: 100px;
@@ -61,6 +66,27 @@
       .action-btns {
         display: flex;
         justify-content: center;
+      }
+      .btn .secondary-btn {
+        padding: 18.5px 19.5px;
+      }
+    }
+    @media (max-width: 425px) {
+      padding-top: 40px;
+      .heading-1 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+      .desc {
+        font-size: 16px;
+      }
+      .action-btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+      .primary-btn {
+        margin-right: 0;
       }
     }
   }

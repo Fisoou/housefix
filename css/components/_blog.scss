@@ -1,10 +1,26 @@
 .blog {
   background-color: var(--greyish);
   .container {
-    padding: 100px 64px;
+    padding-block: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (max-width: 768px) {
+      padding-inline: 64px;
+    }
+    @media (max-width: 425px) {
+      padding-block: 60px;
+      .blog-card {
+        flex-direction: column;
+        max-height: 464px !important;
+      }
+      .note {
+        margin-block: 6px 19px;
+      }
+      .heading-2 {
+        margin-block: 20px 0;
+      }
+    }
   }
   .sub-title {
     justify-content: left;
@@ -35,14 +51,73 @@
       max-height: 226px;
       display: flex;
       @media (max-width: 768px) {
-        width: 640px;
-        max-width: none;
+        max-width: 640px;
+        .img-con {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+        .blog-description {
+          flex: 0 0 50%;
+          max-width: 50%;
+        }
+        &.dosdont {
+          order: 1;
+        }
+        &.filters {
+          order: 2;
+        }
+        &.problems {
+          order: 3;
+        }
+        &.maintanence {
+          order: 4;
+        }
+      }
+      @media (max-width: 425px) {
+        max-height: none;
+        max-width: 100%;
+        height: 464px;
+        .img-con {
+          width: 100%;
+          max-width: none;
+          height: 50%;
+        }
+        .blog-description {
+          width: 100%;
+          max-width: none;
+          height: 50%;
+        }
       }
     }
     .img-con {
+      position: relative;
       overflow: hidden;
       max-width: 284px;
       max-height: 226px;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .img-con::before {
+      content: "Tips & Tricks";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 120px;
+      height: 31px;
+      background-color: var(--blue);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .blog-description {
       padding: 20px;

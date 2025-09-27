@@ -23,6 +23,10 @@
         font-size: 36px;
         margin-bottom: 34px;
       }
+      @media (max-width: 320px) {
+        line-height: 44px;
+        margin-bottom: 34px;
+      }
     }
     .red-btn {
       color: var(--greyish);
@@ -51,10 +55,22 @@
     justify-content: space-between;
     @media (max-width: 768px) {
       flex-direction: column;
+      .contact,
+      .explore {
+        margin-bottom: 0 !important;
+      }
     }
     .link-column {
       @media (max-width: 768px) {
         margin-bottom: 40px;
+      }
+    }
+    @media (max-width: 768px) {
+      .contact {
+        .title {
+          font-size: 24px !important;
+          line-height: 30px !important;
+        }
       }
     }
     .title {
@@ -62,6 +78,10 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 23px;
+      @media (max-width: 768px) {
+        font-size: 18px;
+        line-height: 23px;
+      }
     }
     .link {
       font-weight: 400;
@@ -69,6 +89,9 @@
       line-height: 18px;
       margin: 0;
       margin-top: 8px;
+      @media (max-width: 768px) {
+        margin-top: 12px;
+      }
     }
     .icons {
       padding-left: 26px;
@@ -102,10 +125,16 @@
       line-height: 23px;
       font-weight: 600;
       padding: 0;
+      @media (max-width: 768px) {
+        margin-top: 20px;
+      }
     }
     .emergency-phone {
       font-weight: 700;
       padding-left: 34px;
+      @media (max-width: 768px) {
+        margin-top: 12.5px;
+      }
     }
     .newsletter {
       max-width: 274px;
@@ -147,6 +176,15 @@
     display: flex;
     margin-top: 35px;
   }
+  @media (max-width: 768px) {
+    .social-mobile {
+      display: flex;
+      margin-block: 35px;
+    }
+    .social-desktop {
+      display: none;
+    }
+  }
   .social-icon {
     width: 32px;
     height: 32px;
@@ -161,6 +199,16 @@
     .privacy-terms {
       display: flex;
       gap: 20px;
+    }
+    @media (max-width: 425px) {
+      text-align: center;
+      flex-direction: column;
+      .copyright {
+        margin-bottom: 20px;
+      }
+      .privacy-terms {
+        justify-content: space-between;
+      }
     }
   }
 }

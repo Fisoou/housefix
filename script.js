@@ -142,8 +142,9 @@ const swiper = new Swiper(".swiper", {
     768: {
       slidesPerView: 2,
     },
-    1024: {
+    320: {
       slidesPerView: 1,
+      centeredSlides: true,
     },
   },
   navigation: {

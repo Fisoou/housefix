@@ -5,6 +5,9 @@
     @media (max-width: 768px) {
       padding-block: 20px;
     }
+    @media (max-width: 320px) {
+      padding-block: 60px;
+    }
   }
   .heading-2 {
     color: var(--blue);
@@ -14,12 +17,23 @@
     @media (max-width: 768px) {
       font-size: 40px;
     }
+    @media (max-width: 320px) {
+      font-size: 31px;
+      margin-bottom: 30px;
+    }
   }
   .content {
     display: flex;
-    padding-inline: 145px;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-inline: 108px;
+    @media (max-width: 425px) {
+      padding-inline: 24.5px;
+      justify-content: centre;
+      .col-1 {
+        margin-bottom: 20px;
+      }
+    }
   }
   .col-1 {
     img {
@@ -36,6 +50,10 @@
   .col {
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
+    @media (max-width: 425px) {
+      justify-content: center;
+    }
   }
   .item {
     min-width: 231px;
