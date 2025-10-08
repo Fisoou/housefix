@@ -1,16 +1,10 @@
 .customer-testimonial {
   .container {
     padding-block: 100px;
-    .swiper-wrapper {
-      padding-inline: 48px;
-    }
     @media (max-width: 991px) {
       padding-block: 80px;
       .sub-title__text {
         margin-bottom: 32px;
-      }
-      .swiper-wrapper {
-        padding-inline: 0;
       }
     }
     @media (max-width: 767px) {
