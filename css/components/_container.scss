@@ -2,10 +2,10 @@
   max-width: 1280px;
   padding-inline: 64px;
   margin-inline: auto;
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     padding-inline: 32px;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 767px) {
     padding-inline: 20px !important;
   }
 }

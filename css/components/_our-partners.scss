@@ -1,10 +1,10 @@
 .our-partners {
   .container {
     padding: 60px 64px;
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       padding-inline: 32px;
     }
-    @media (max-width: 320px) {
+    @media (max-width: 767px) {
       padding-inline: 20px;
 
       .heading-2 {
@@ -26,13 +26,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px 16px;
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
+      justify-content: center;
       .img-con {
         width: 164px !important;
         height: 160px !important;
       }
     }
-    @media (max-width: 320px) {
+    @media (max-width: 767px) {
       gap: 50px 16px;
       .img-con {
         max-width: 130px;

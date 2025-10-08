@@ -2,10 +2,10 @@
   background-color: var(--greyish);
   .container {
     padding-block: 100px;
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       padding-block: 80px;
     }
-    @media (max-width: 320px) {
+    @media (max-width: 767px) {
       padding-block: 60px;
     }
   }
@@ -18,10 +18,10 @@
       text-align: center;
       font-size: 48px;
       margin: 0;
-      @media (max-width: 768px) {
+      @media (max-width: 991px) {
         font-size: 40px;
       }
-      @media (max-width: 320px) {
+      @media (max-width: 767px) {
         font-size: 32px;
       }
     }
@@ -29,20 +29,20 @@
   .plan-con {
     display: flex;
     gap: 20px;
-    @media (max-width: 768px) {
+    @media (max-width: 991px) {
       flex-direction: column;
       gap: 40px;
     }
     .content {
       padding: 40px 20px 60px 20px;
-      @media (max-width: 768px) {
+      @media (max-width: 991px) {
         padding-top: 38px;
       }
     }
     .plan {
       background-color: #fff;
       width: 370px;
-      @media (max-width: 768px) {
+      @media (max-width: 991px) {
         width: 100%;
       }
     }
@@ -57,7 +57,7 @@
       font-size: 16px;
       font-weight: 700;
       margin-top: 24px;
-      @media (max-width: 320px) {
+      @media (max-width: 767px) {
         margin-top: 14px;
       }
     }
