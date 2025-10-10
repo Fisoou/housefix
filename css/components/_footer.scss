@@ -97,25 +97,25 @@
       padding-left: 26px;
     }
     .address {
-      background-image: url("/img/location.svg");
+      background-image: url("../img/location.svg");
       background-repeat: no-repeat;
       background-size: 16px;
       background-position: left center;
     }
     .email {
-      background-image: url("/img/wh-email.svg");
+      background-image: url("../img/wh-email.svg");
       background-repeat: no-repeat;
       background-size: 16px;
       background-position: left center;
     }
     .phone-number {
-      background-image: url("/img/wh-phone.svg");
+      background-image: url("../img/wh-phone.svg");
       background-repeat: no-repeat;
       background-size: 16px;
       background-position: left center;
     }
     .emergency-phone {
-      background-image: url("/img/red-phone.svg");
+      background-image: url("../img/red-phone.svg");
       background-repeat: no-repeat;
       background-size: 24px;
       background-position: left center;
@@ -175,6 +175,9 @@
     gap: 29px;
     display: flex;
     margin-top: 35px;
+  }
+  .social-mobile {
+    display: none;
   }
   @media (max-width: 991px) {
     .social-mobile {

@@ -59,7 +59,7 @@ img {
   font-size: 18px;
   font-weight: 600;
   color: var(--blue);
-  background-image: url("/img/right-arrow.svg");
+  background-image: url("../img/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 0 center;
   padding-right: 64px;
@@ -464,7 +464,7 @@ img {
 .services .content .learn-more {
   font-family: "Inter";
   display: inline-block;
-  background-image: url("/img/right-arrow.svg");
+  background-image: url("../img/right-arrow.svg");
   background-repeat: no-repeat;
   background-size: 48px 16px;
   background-position: right center;
@@ -593,7 +593,7 @@ img {
 }
 .about-us .container .primary-btn {
   padding: 20px 58px 20px 28px;
-  background-image: url("/img/arrow-up-right.svg");
+  background-image: url("../img/arrow-up-right.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: right 28px center;
@@ -1254,7 +1254,7 @@ img {
   font-weight: 600;
   margin-block: 16px;
   line-height: 18px;
-  background-image: url("/img/calendar.svg");
+  background-image: url("../img/calendar.svg");
   background-repeat: no-repeat;
   background-size: 12px;
   background-position: left center;
@@ -1270,7 +1270,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   margin-block: 0;
-  background-image: url("/img/blue-arrow-up-right.svg");
+  background-image: url("../img/blue-arrow-up-right.svg");
   background-repeat: no-repeat;
   background-size: 12px;
   background-position: right center;
@@ -1279,7 +1279,7 @@ img {
 }
 .blog .primary-btn {
   padding: 18.5px 72px 18.5px 40px;
-  background-image: url("/img/arrow-up-right.svg");
+  background-image: url("../img/arrow-up-right.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: right 40px center;
@@ -1401,25 +1401,25 @@ img {
   padding-left: 26px;
 }
 .footer .content .address {
-  background-image: url("/img/location.svg");
+  background-image: url("../img/location.svg");
   background-repeat: no-repeat;
   background-size: 16px;
   background-position: left center;
 }
 .footer .content .email {
-  background-image: url("/img/wh-email.svg");
+  background-image: url("../img/wh-email.svg");
   background-repeat: no-repeat;
   background-size: 16px;
   background-position: left center;
 }
 .footer .content .phone-number {
-  background-image: url("/img/wh-phone.svg");
+  background-image: url("../img/wh-phone.svg");
   background-repeat: no-repeat;
   background-size: 16px;
   background-position: left center;
 }
 .footer .content .emergency-phone {
-  background-image: url("/img/red-phone.svg");
+  background-image: url("../img/red-phone.svg");
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: left center;
@@ -1484,6 +1484,9 @@ img {
   gap: 29px;
   display: flex;
   margin-top: 35px;
+}
+.footer .social-mobile {
+  display: none;
 }
 @media (max-width: 991px) {
   .footer .social-mobile {
