@@ -91,6 +91,9 @@
       flex-direction: row;
       gap: 20px;
       align-items: center;
+      .home {
+        color: var(--blue);
+      }
     }
     .header-menu-link {
       display: flex;
@@ -98,6 +101,7 @@
       font-size: 14px;
       transition: 0.2s;
       color: #000;
+
       &:hover {
         color: var(--blue);
       }

@@ -90,7 +90,7 @@ li {
 
 .list {
   font-family: "Inter";
-  background-image: url("./img/checkmark.svg");
+  background-image: url("../img/checkmark.svg");
   background-repeat: no-repeat;
 }
 

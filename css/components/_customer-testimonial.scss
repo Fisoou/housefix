@@ -1,6 +1,7 @@
 .customer-testimonial {
   .container {
     padding-block: 100px;
+
     @media (max-width: 991px) {
       padding-block: 80px;
       .sub-title__text {
@@ -28,17 +29,22 @@
     text-align: center;
     margin-block: 0 60px;
   }
+  .clients {
+    position: relative;
+  }
+  .clients .swiper {
+    max-width: 1056px;
+    margin-inline: auto;
+    @media (max-width: 991px) {
+      max-width: 608px;
+    }
+  }
 
   .swiper-slide {
     padding: 40px 24px 32px 24px;
-    max-width: 330px;
-    min-height: 360px;
+    height: auto;
     background-color: var(--greyish);
     border-bottom: 6px solid var(--blue);
-    @media (max-width: 991px) {
-      max-width: 288px;
-      height: 372px;
-    }
   }
   .feedback__text {
     font-family: "Inter";
