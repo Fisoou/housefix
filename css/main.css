@@ -582,7 +582,7 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.about-us .container .bullet-point .list {
+.about-us .container .bullet-point .bullet-point-item {
   background-size: 20px;
   padding-left: 32px;
   font-size: 18px;
@@ -590,7 +590,7 @@ img {
   line-height: 23px;
 }
 @media (max-width: 991px) {
-  .about-us .container .bullet-point .list {
+  .about-us .container .bullet-point .bullet-point-item {
     padding-left: 38px;
   }
 }
@@ -692,7 +692,7 @@ img {
 .price-plans .plan-con .primary-btn {
   color: #fff;
 }
-.price-plans .plan-con .list {
+.price-plans .plan-con .bullet-point-item {
   background-size: 16px;
   font-family: "Inter";
   padding-left: 28px;
